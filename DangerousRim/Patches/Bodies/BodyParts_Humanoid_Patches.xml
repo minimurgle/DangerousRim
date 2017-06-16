@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Torso"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>35</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftShoulder"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>35</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftArm"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>30</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftHand"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftHandPinky"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>10</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftHandRingFinger"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>10</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftHandMiddleFinger"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>10</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftHandIndexFinger"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>10</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftHandThumb"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>10</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightShoulder"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>35</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightArm"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>30</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightHand"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightHandPinky"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>10</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightHandRingFinger"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>10</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightHandMiddleFinger"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>10</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightHandIndexFinger"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>10</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightHandThumb"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>10</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftClavicle"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>20</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightClavicle"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>20</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Sternum"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>20</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftHumerus"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>20</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightHumerus"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>20</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftRadius"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightRadius"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Pelvis"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>20</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftFemur"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>20</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightFemur"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>20</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftTibia"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>20</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightTibia"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>20</hitPoints>
+	  </value>
+	</Operation>
+</Patch>

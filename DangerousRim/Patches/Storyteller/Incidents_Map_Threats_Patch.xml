@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "RaidEnemy"]/baseChance</xpath>
+	  <value>
+        <baseChance>7.5</baseChance>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "Infestation"]/baseChance</xpath>
+	  <value>
+        <baseChance>2.5</baseChance>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "ManhunterPack"]/baseChance</xpath>
+	  <value>
+        <baseChance>2.5</baseChance>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "PoisonShipPartCrash"]/baseChance</xpath>
+	  <value>
+        <baseChance>2.5</baseChance>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "AnimalInsanityMass"]/baseChance</xpath>
+	  <value>
+        <baseChance>1.5</baseChance>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "AnimalInsanitySingle"]/baseChance</xpath>
+	  <value>
+        <baseChance>4</baseChance>
+	  </value>
+	</Operation>
+</Patch>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/HediffDef[defName = "BloodLoss"]/stages/li[2]/capMods/li/offset</xpath>
+	  <value>
+        <offset>-0.15</offset>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/HediffDef[defName = "BloodLoss"]/stages/li[3]/capMods/li/offset</xpath>
+	  <value>
+        <offset>-0.25</offset>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/HediffDef[defName = "BloodLoss"]/stages/li[4]/capMods/li/offset</xpath>
+	  <value>
+        <offset>-0.45</offset>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/HediffDef[defName = "PsychicShock"]/comps/li/disappearsAfterTicks/max</xpath>
+	  <value>
+        <max>10000</max>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/HediffDef[defName = "CryptosleepSickness"]/comps/li/disappearsAfterTicks/max</xpath>
+	  <value>
+        <max>17500</max>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/HediffDef[defName = "FoodPoisoning"]/comps/li/disappearsAfterTicks/max</xpath>
+	  <value>
+        <max>50000</max>
+	  </value>
+	</Operation>
+</Patch>

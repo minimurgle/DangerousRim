@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_Flu"]/diseaseVictimFractionRange/min</xpath>
+	  <value>
+        <min>0.15</min>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_Flu"]/diseaseVictimFractionRange/max</xpath>
+	  <value>
+        <max>0.85</max>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_Plague"]/diseaseVictimFractionRange/min</xpath>
+	  <value>
+        <min>0.15</min>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_Plague"]/diseaseVictimFractionRange/max</xpath>
+	  <value>
+        <max>0.65</max>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_Malaria"]/diseaseVictimFractionRange/min</xpath>
+	  <value>
+        <min>0.10</min>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_Malaria"]/diseaseVictimFractionRange/max</xpath>
+	  <value>
+        <max>0.75</max>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_SleepingSickness"]/diseaseVictimFractionRange/min</xpath>
+	  <value>
+        <min>0.15</min>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_SleepingSickness"]/diseaseVictimFractionRange/max</xpath>
+	  <value>
+        <max>0.65</max>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_FibrousMechanites"]/diseaseVictimFractionRange/min</xpath>
+	  <value>
+        <min>0.15</min>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_FibrousMechanites"]/diseaseVictimFractionRange/max</xpath>
+	  <value>
+        <max>0.65</max>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_SensoryMechanites"]/diseaseVictimFractionRange/min</xpath>
+	  <value>
+        <min>0.15</min>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_SensoryMechanites"]/diseaseVictimFractionRange/max</xpath>
+	  <value>
+        <max>0.65</max>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_GutWorms"]/diseaseVictimFractionRange/min</xpath>
+	  <value>
+        <min>0.15</min>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_GutWorms"]/diseaseVictimFractionRange/max</xpath>
+	  <value>
+        <max>0.65</max>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_MuscleParasites"]/diseaseVictimFractionRange/min</xpath>
+	  <value>
+        <min>0.15</min>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/IncidentDefs/IncidentDef[defName = "Disease_MuscleParasites"]/diseaseVictimFractionRange/max</xpath>
+	  <value>
+        <max>0.65</max>
+	  </value>
+	</Operation>
+</Patch>

@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Body"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>35</hitPoints>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Beak"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "InsectHead"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "SnakeBody"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "SnakeHead"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "SnakeMouth"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "InsectHeart"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "InsectNostril"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "InsectMouth"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "AnimalJaw"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Jowl"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Tail"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftAntenna"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightAntenna"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Pronotum"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Shell"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftElytra"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightElytra"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftTusk"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightTusk"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Trunk"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>10</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Horn"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "HeadClaw"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>10</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Hump"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "TurtleShell"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>40</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Plastron"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "TurtleBeak"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "FrontLeftLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "FrontRightLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "MiddleLeftLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "MiddleRightLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RearLeftLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RearRightLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "FrontLeftInsectLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "FrontRightInsectLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "MiddleLeftInsectLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "MiddleRightInsectLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RearLeftInsectLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RearRightInsectLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "FrontLeftPaw"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "FrontRightPaw"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RearLeftPaw"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RearRightPaw"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "FrontLeftHoof"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "FrontRightHoof"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RearLeftHoof"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+</Patch>

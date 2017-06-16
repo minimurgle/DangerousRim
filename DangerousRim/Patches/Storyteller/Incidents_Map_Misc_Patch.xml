@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "PsychicSoothe"]/durationDays/min</xpath>
+	  <value>
+        <min>1.0</min>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "PsychicSoothe"]/durationDays/max</xpath>
+	  <value>
+        <max>4.0</max>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "PsychicSoothe"]/baseChance</xpath>
+	  <value>
+        <baseChance>0.85</baseChance>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "SelfTame"]/baseChance</xpath>
+	  <value>
+        <baseChance>0.70</baseChance>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "ToxicFallout"]/durationDays/min</xpath>
+	  <value>
+        <min>2.0</min>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "ToxicFallout"]/durationDays/max</xpath>
+	  <value>
+        <max>100.0</max>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "VolcanicWinter"]/durationDays/min</xpath>
+	  <value>
+        <min>2.0</min>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "VolcanicWinter"]/durationDays/max</xpath>
+	  <value>
+        <max>150.0</max>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/IncidentDef[defName = "ShortCircuit"]/baseChance</xpath>
+	  <value>
+        <baseChance>0.80</baseChance>
+	  </value>
+	</Operation>
+</Patch>

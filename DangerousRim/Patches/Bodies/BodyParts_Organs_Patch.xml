@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Heart"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftLung"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightLung"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftKidney"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightKidney"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Liver"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "Stomach"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>20</hitPoints>
+	  </value>
+	</Operation>
+</Patch>
