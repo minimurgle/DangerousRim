@@ -24,8 +24,8 @@
       <max>3.0</max>
     </gearHealthRange>
     <apparelMoney>
-      <min>750</min>
-      <max>200</max>
+      <min>200</min>
+      <max>750</max>
     </apparelMoney>
     <apparelTags>
       <li>Tribal</li>
