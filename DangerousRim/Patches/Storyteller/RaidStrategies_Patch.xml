@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/RaidStrategyDef[defName = "ImmediateAttack"]/pointsFactor</xpath>
+	  <value>
+        <pointsFactor>1.2</pointsFactor>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/RaidStrategyDef[defName = "ImmediateAttack"]/selectionChance</xpath>
+	  <value>
+        <selectionChance>.60</selectionChance>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/RaidStrategyDef[defName = "ImmediateAttackSmart"]/pointsFactor</xpath>
+	  <value>
+        <pointsFactor>1.5</pointsFactor>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/RaidStrategyDef[defName = "ImmediateAttackSmart"]/selectionChance</xpath>
+	  <value>
+        <selectionChance>.75</selectionChance>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/RaidStrategyDef[defName = "StageThenAttack"]/pointsFactor</xpath>
+	  <value>
+        <pointsFactor>1.3</pointsFactor>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/RaidStrategyDef[defName = "StageThenAttack"]/selectionChance</xpath>
+	  <value>
+        <selectionChance>.75</selectionChance>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/RaidStrategyDef[defName = "ImmediateAttackSappers"]/pointsFactor</xpath>
+	  <value>
+        <pointsFactor>1.2</pointsFactor>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/RaidStrategyDef[defName = "ImmediateAttackSappers"]/selectionChance</xpath>
+	  <value>
+        <selectionChance>2.0</selectionChance>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/RaidStrategyDef[defName = "Siege"]/pointsFactor</xpath>
+	  <value>
+        <pointsFactor>.90</pointsFactor>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/RaidStrategyDef[defName = "Siege"]/selectionChance</xpath>
+	  <value>
+        <selectionChance>1</selectionChance>
+	  </value>
+	</Operation>
+</Patch>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/MentalBreakDef[defName = "Berserk"]/baseCommonality</xpath>
+	  <value>
+        <baseCommonality>.2</baseCommonality>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/MentalStateDef[defName = "Berserk"]/minTicksBeforeRecovery</xpath>
+	  <value>
+        <minTicksBeforeRecovery>5000</minTicksBeforeRecovery>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/MentalStateDef[defName = "Berserk"]/maxTicksBeforeRecovery</xpath>
+	  <value>
+        <maxTicksBeforeRecovery>75000</maxTicksBeforeRecovery>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/MentalBreakDef[defName = "FireStartingSpree"]/baseCommonality</xpath>
+	  <value>
+        <baseCommonality>0.75</baseCommonality>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/MentalBreakDef[defName = "BingingDrugExtreme"]/baseCommonality</xpath>
+	  <value>
+        <baseCommonality>1.2</baseCommonality>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/MentalStateDef[defName = "BingingDrugExtreme"]/minTicksBeforeRecovery</xpath>
+	  <value>
+        <minTicksBeforeRecovery>10000</minTicksBeforeRecovery>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/MentalStateDef[defName = "BingingDrugExtreme"]/maxTicksBeforeRecovery</xpath>
+	  <value>
+        <maxTicksBeforeRecovery>100000</maxTicksBeforeRecovery>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/MentalStateDef[defName = "WanderPsychotic"]/minTicksBeforeRecovery</xpath>
+	  <value>
+        <minTicksBeforeRecovery>10000</minTicksBeforeRecovery>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/MentalStateDef[defName = "WanderPsychotic"]/maxTicksBeforeRecovery</xpath>
+	  <value>
+        <maxTicksBeforeRecovery>100000</maxTicksBeforeRecovery>
+	  </value>
+	</Operation>
+</Patch>

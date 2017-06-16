@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "MechanicalThorax"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>35</hitPoints>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftBlade"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightBlade"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "MechanicalNeck"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "MechanicalHead"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftSightSensor"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightSightSensor"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftHearingSensor"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightHearingSensor"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "SmellSensor"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>5</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightMechanicalShoulder"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>20</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftMechanicalShoulder"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>20</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightMechanicalArm"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftMechanicalArm"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightMechanicalHand"]/hitPoints</xpath>
+	  <value>
+        <hitPoints></hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightMechanicalHand"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftMechanicalLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightMechanicalLeg"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "RightMechanicalFoot"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "LeftMechanicalFoot"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>15</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "MechanicalCentipedeBodyFirstRing"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>90</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "MechanicalCentipedeBodySecondRing"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>75</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "MechanicalCentipedeBodyThirdRing"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>60</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "MechanicalCentipedeBodyFourthRing"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>40</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "MechanicalCentipedeBodyFifthRing"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>35</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "MechanicalCentipedeBodySixthRing"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>90</hitPoints>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>/Defs/BodyPartDef[defName = "ArtificialBrain"]/hitPoints</xpath>
+	  <value>
+        <hitPoints>25</hitPoints>
+	  </value>
+	</Operation>
+</Patch>

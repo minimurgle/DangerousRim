@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <DifficultyDef>
+		<defName>VeryVeryHard</defName>
+		<label>Dangerous Rim</label>
+		<description>Harder than a diamond-bladed dagger coated in the blood of your enemies.\n\nEnemies are numerous, prices are very poor, food is near non-existant, and colonists are spiteful. For those who enjoy suffering.</description>
+    <difficulty>6</difficulty>
+    <threatScale>1.6</threatScale>
+		<colonistMoodOffset>-10</colonistMoodOffset>
+		<tradePriceFactorLoss>0.30</tradePriceFactorLoss>
+		<cropYieldFactor>0.6</cropYieldFactor>
+		<diseaseIntervalFactor>0.8</diseaseIntervalFactor>
+    <enemyReproductionRateFactor>1.75</enemyReproductionRateFactor>
+  </DifficultyDef>
+	
+</Defs>

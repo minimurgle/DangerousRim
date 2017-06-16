@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Dangerous Rim V1.3</name>
+  <targetVersion>0.17.1546</targetVersion>
+  <author>minimurgle</author>
+  <description>
+  	Some tweaks to make rimworld more difficult while attempting to keep it fair.
+  	-Adds StoryTeller
+  	-Adds Difficulty
+  	-Lowers health of all creatures and mechanoids
+  	-Increased hediff severity
+  	-Increased mental break severity
+    -Increased variety in diesease time
+    -Higher chance for smarter raids
+    -Less annoying events
+    -Makes late game raids harder
+  </description>
+</ModMetaData>

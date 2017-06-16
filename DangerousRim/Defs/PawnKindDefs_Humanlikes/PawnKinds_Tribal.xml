@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PawnKindDefs>
+
+  <PawnKindDef Name="TribalBase" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>Tribe</defaultFactionType>
+    <backstoryCategory>Tribal</backstoryCategory>
+    <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <invNutrition>2.55</invNutrition>
+    <invFoodDef>Pemmican</invFoodDef>
+  </PawnKindDef>
+
+
+	<PawnKindDef ParentName="TribalBase">
+		<defName>TribalSharpshooter</defName>
+		<label>sharpshooter</label>
+    <combatPower>80</combatPower>
+		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+    <itemQuality>Superior</itemQuality>
+    <minGenerationAge>35</minGenerationAge>
+    <gearHealthRange>
+      <min>1.0</min>
+      <max>3.0</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>750</min>
+      <max>200</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Tribal</li>
+    </apparelTags>
+    <weaponMoney>
+			<min>1000</min>
+			<max>1500</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>NeolithicRanged</li>
+		</weaponTags>
+	</PawnKindDef>
+
+</PawnKindDefs>
